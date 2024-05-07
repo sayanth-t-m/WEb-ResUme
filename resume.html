@@ -8,28 +8,30 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 10px; /* Reduced padding for compactness */
+      padding: 8px; /* Reduced padding for compactness */
+      color: #000; /* Default text color */
+      background-color: #fff; /* White background */
     }
     h2 {
-      margin-bottom: 5px; /* Reduced margin-bottom for compactness */
+      margin-bottom: 1px; /* Reduced margin-bottom for compactness */
     }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 5px; /* Reduced margin-bottom for compactness */
+      margin-bottom: 1px; /* Reduced margin-bottom for compactness */
     }
     th, td {
-      border: 1px solid #dddddd;
+      border: 1px solid #000; /* Black border */
       text-align: left;
       padding: 5px; /* Reduced padding for compactness */
     }
     th {
-      background-color: #1976d2; /* Header background color */
+      background-color: #000; /* Header background color */
       color: #fff; /* Header text color */
       width: 20%; /* Fixed width for consistency */
     }
     td {
-      background-color: #bbdefb; /* Cell background color */
+      background-color: #fff; /* Cell background color */
     }
     .header-left {
       float: left;
@@ -39,6 +41,16 @@
       float: right;
       width: 80%; /* Adjusted width to maintain consistency */
       text-align: right;
+    }
+    .header-right p {
+      font-size: 14px; /* Reduced font size */
+      color: #666; /* Grey text color */
+    }
+    .header-right a {
+      color: #1976d2; /* LinkedIn and GitHub link color */
+    }
+    th, td {
+      font-size: 14px; /* Reduced font size */
     }
   </style>
 </head>
@@ -86,7 +98,7 @@
 
 <table>
   <tr>
-    <th rowspan="4">Experience</th>
+    <th rowspan="4">Internship</th>
     <th>Position</th>
     <th>Company</th>
     <th>Location</th>
@@ -125,20 +137,19 @@
 </table>
 
 <table>
-  <tr>
-    <th rowspan="3">Languages</th>
-  </tr>
-  <tr>
-    <td>English (Professional Working Proficiency)</td>
-  </tr>
-  <tr>
-    <td>Malayalam (Native)</td>
-  </tr>
+    <tr>
+      <th rowspan="9">Languages</th>
+    </tr>
+    <tr>
+      <td>Malayalam (Native)</td>
+      <td>English (Professional Working Proficiency)</td>
+    </tr>
 </table>
+  
 
 <table>
-  <tr>
-    <th>Programming Languages</th>
+    <tr>
+        <th rowspan="7">Soft Skills</th>
     <td>C, Dart, Java, HTML5, LaTeX, Markdown, Python, CSS, JavaScript</td>
   </tr>
 </table>
@@ -192,86 +203,59 @@
 </table>
 
 <table>
-    <tr>
-      <th rowspan="9">Projects</th>
-    </tr>
-    <tr>
-      <td>Emo - Your Emotional Support Buddy</td>
-      <td>Flutter-based app designed to provide emotional support by leveraging Google's PaLM LLM for generating personalized responses.</td>
-    </tr>
-    <tr>
-      <td>BMI Calculator</td>
-      <td>Flutter app designed to calculate BMI scores with a user-friendly interface for easy health tracking.</td>
-    </tr>
-    <tr>
-      <td>Collage Enquiry Chatbot using NLP and Langchain</td>
-      <td>Developed a chatbot using NLP and Langchain to assist students with college inquiries, providing accurate and efficient responses.</td>
-    </tr>
-    <tr>
-      <td>Ticker-Crypto Currency Rate App</td>
-      <td>Flutter app providing real-time cryptocurrency rates with a customizable list of currencies for easy tracking.</td>
-    </tr>
-    <tr>
-      <td>Phone Number Details App</td>
-      <td>Efficient Flutter app for analyzing phone numbers' details, including country codes and validity status, enhancing user communication.</td>
-    </tr>
-    <tr>
-      <td>Medic</td>
-      <td>Flutter app designed to assist users in managing medication intake, featuring OCR and text-to-speech functionalities for accessibility.</td>
-    </tr>
-    <tr>
-      <td>Pickme</td>
-      <td>Website displaying one-liner pickup lines scraped from Reddit, adding fun and humor to users' browsing experience.</td>
-    </tr>
-    <tr>
-      <td>Pluto</td>
-      <td>Engaging Flutter app leveraging Google's paLm API to generate flirty pickup lines and witty dad jokes, enhancing communication with a touch of charm.</td>
-    </tr>
-  </table>
+  <tr>
+    <th rowspan="9">Projects</th>
+  </tr>
+  <tr>
+    <td>Emo - Your Emotional Support Buddy</td>
+    <td>Flutter-based app designed to provide emotional support by leveraging Google's PaLM LLM for generating personalized responses.</td>
+  </tr>
+  <tr>
+    <td>BMI Calculator</td>
+    <td>Flutter app designed to calculate BMI scores with a user-friendly interface for easy health tracking.</td>
+  </tr>
+  <tr>
+    <td>Collage Enquiry Chatbot using NLP and Langchain</td>
+    <td>Developed a chatbot using NLP and Langchain to assist students with college inquiries, providing accurate and efficient responses.</td>
+  </tr>
+  <tr>
+    <td>Ticker-Crypto Currency Rate App</td>
+    <td>Flutter app providing real-time cryptocurrency rates with a customizable list of currencies for easy tracking.</td>
+  </tr>
+  <tr>
+    <td>Phone Number Details App</td>
+    <td>Efficient Flutter app for analyzing phone numbers' details, including country codes and validity status, enhancing user communication.</td>
+  </tr>
+  <tr>
+    <td>Medic</td>
+    <td>Flutter app designed to assist users in managing medication intake, featuring OCR and text-to-speech functionalities for accessibility.</td>
+  </tr>
+  <tr>
+    <td>Pickme</td>
+    <td>Website displaying one-liner pickup lines scraped from Reddit, adding fun and humor to users' browsing experience.</td>
+  </tr>
+  <tr>
+    <td>Pluto</td>
+    <td>Engaging Flutter app leveraging Google's paLm API to generate flirty pickup lines and witty dad jokes, enhancing communication with a touch of charm.</td>
+  </tr>
+</table>
 
-  <table>
-    <tr>
-      <th rowspan="6">Soft Skills</th>
-    </tr>
-    <tr>
-      <td>Problem-solving</td>
-    </tr>
-    <tr>
-      <td>Communication</td>
-    </tr>
-    <tr>
-      <td>Adaptability</td>
-    </tr>
-    <tr>
-      <td>Teamwork</td>
-    </tr>
-    <tr>
-      <td>Time Management</td>
-    </tr>
+<table>
+  <tr>
+      <th rowspan="7">Soft Skills</th>
+  </tr>
+  <tr>
+    <td>Problem-solving, Communication, Adaptability, Teamwork, Time Management</td>
+  </tr>
 </table>
 <table>
-    <tr>
-      <th rowspan="7">Hobbies</th>
-    </tr>
-    <tr>
-      <td>Reading</td>
-    </tr>
-    <tr>
-      <td>Music</td>
-    </tr>
-    <tr>
-      <td>Video Gaming</td>
-    </tr>
-    <tr>
-      <td>Programming</td>
-    </tr>
-    <tr>
-      <td>Gym</td>
-    </tr>
-    <tr>
-      <td>Movies</td>
-    </tr>
-  </table>
+  <tr>
+    <th rowspan="7">Hobbies</th>
+  </tr>
+  <tr>
+    <td>Reading, Music, Gym, Movies, Video Gaming</td>
+  </tr>
+</table>
 
 </body>
 </html>
